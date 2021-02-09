@@ -91,7 +91,6 @@ adb shell cmd package install-existing	com.monotype.android.font.cooljazz	#	Cool
 adb shell cmd package install-existing	com.monotype.android.font.foundation	#	Foundation
 adb shell cmd package install-existing	com.monotype.android.font.rosemary	#	RoseEUKor
 adb shell cmd package install-existing	com.nuance.swype.input	#	#N/A
-adb shell cmd package install-existing	com.osp.app.signin	#	Samsung account
 adb shell cmd package install-existing	com.pandora.android	#	#N/A
 adb shell cmd package install-existing	com.playstudios.popslots	#	#N/A
 adb shell cmd package install-existing	com.policydm	#	#N/A

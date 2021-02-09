@@ -91,7 +91,6 @@ adb shell pm uninstall -k --user 0	com.monotype.android.font.cooljazz	#	CoolEUKo
 adb shell pm uninstall -k --user 0	com.monotype.android.font.foundation	#	Foundation
 adb shell pm uninstall -k --user 0	com.monotype.android.font.rosemary	#	RoseEUKor
 adb shell pm uninstall -k --user 0	com.nuance.swype.input	#	#N/A
-adb shell pm uninstall -k --user 0	com.osp.app.signin	#	Samsung account
 adb shell pm uninstall -k --user 0	com.pandora.android	#	#N/A
 adb shell pm uninstall -k --user 0	com.playstudios.popslots	#	#N/A
 adb shell pm uninstall -k --user 0	com.policydm	#	#N/A
