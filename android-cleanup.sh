@@ -21,7 +21,6 @@ adb shell pm uninstall -k --user 0	com.android.printspooler	#	Print Spooler
 adb shell pm uninstall -k --user 0	com.android.providers.partnerbookmarks	#	#N/A
 adb shell pm uninstall -k --user 0	com.android.thememanager	#	#N/A
 adb shell pm uninstall -k --user 0	com.android.thememanager.module	#	#N/A
-adb shell pm uninstall -k --user 0	com.android.vpndialogs	#	VpnDialogs
 adb shell pm uninstall -k --user 0	com.android.wallpaper.livepicker	#	Live Wallpaper Picker
 adb shell pm uninstall -k --user 0	com.android.wallpaperbackup	#	#N/A
 adb shell pm uninstall -k --user 0	com.android.wallpapercropper	#	#N/A
