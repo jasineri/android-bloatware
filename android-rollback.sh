@@ -349,4 +349,35 @@ adb shell cmd package install-existing	comtv.peel.samsung.app	#	#N/A
 adb shell cmd package install-existing	flipboard.boxer.app	#	Briefing
 adb shell cmd package install-existing	jp.gocro.smartnews.android	#	#N/A
 adb shell cmd package install-existing	net.aetherpal.device	#	#N/A
+adb shell cmd package install-existing com.coloros.phonemanager
+adb shell cmd package install-existing com.coloros.oppomultiapp
+adb shell cmd package install-existing com.coloros.gamespace
+adb shell cmd package install-existing com.heytap.music
+adb shell cmd package install-existing com.heytap.themestore
+adb shell cmd package install-existing com.heytap.pictorial
+adb shell cmd package install-existing com.heytap.habit.analysis
+adb shell cmd package install-existing com.coloros.backuprestore
+adb shell cmd package install-existing com.realme.securitycheck
+adb shell cmd package install-existing com.coloros.systemclone
+adb shell cmd package install-existing com.realmepay.payments
+adb shell cmd package install-existing com.opos.cs
+adb shell cmd package install-existing com.realme.link
+adb shell cmd package install-existing com.coloros.oshare
+adb shell cmd package install-existing com.oppo.quicksearchbox
+adb shell cmd package install-existing com.coloros.gamespaceui
+adb shell cmd package install-existing com.coloros.assistantscreen
+adb shell cmd package install-existing com.coloros.videoeditor
+adb shell cmd package install-existing com.coloros.video
+adb shell cmd package install-existing com.heytap.browser
+adb shell cmd package install-existing com.os.docvault
+adb shell cmd package install-existing com.finshell.fin
+adb shell cmd package install-existing com.coloros.onekeylockscreen
+adb shell cmd package install-existing com.realmecomm.app
+adb shell cmd package install-existing com.heytap.quickgame
+adb shell cmd package install-existing com.heytap.cloud
+adb shell cmd package install-existing com.heytap.usercenter
+adb shell cmd package install-existing com.realmestore.app
+adb shell cmd package install-existing com.google.android.videos
+adb shell cmd package install-existing com.redteamobile.roaming
+adb shell cmd enable com.nearme.statistics.rom
 
