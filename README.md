@@ -18,9 +18,9 @@ Platform Tools' binaries could be retrieved from [here](https://developer.androi
 
 # Installation and usage
 
-  git clone https://github.com/jasineri/android-bloatware
-  cd android-bloatware
-  bash android-cleanup.sh
+    git clone https://github.com/jasineri/android-bloatware
+    cd android-bloatware
+    bash android-cleanup.sh
 
 # Footnotes
 
