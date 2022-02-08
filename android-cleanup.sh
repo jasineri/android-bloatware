@@ -1,4 +1,3 @@
-#!/bin/bash
 adb shell pm uninstall -k --user 0	co.hunge.app	#	#N/A
 adb shell pm uninstall -k --user 0	com.amazon.fv	#	#N/A
 adb shell pm uninstall -k --user 0	com.amazon.kindle	#	#N/A
@@ -17,7 +16,7 @@ adb shell pm uninstall -k --user 0	com.android.egg	#	Android Q Easter Egg
 adb shell pm uninstall -k --user 0	com.android.email	#	#N/A
 adb shell pm uninstall -k --user 0	com.android.emergency	#	Emergency information
 adb shell pm uninstall -k --user 0	com.android.hotwordenrollment.okgoogle	#	OK Google enrollment
-adb shell pm uninstall -k --user 0	com.android.printspooler	#	Print Spooler
+adb shell pm uninstall -k --user 0	com.android.printspooler	#	Mobile Printing service
 adb shell pm uninstall -k --user 0	com.android.providers.partnerbookmarks	#	#N/A
 adb shell pm uninstall -k --user 0	com.android.thememanager	#	#N/A
 adb shell pm uninstall -k --user 0	com.android.thememanager.module	#	#N/A
@@ -52,15 +51,15 @@ adb shell pm uninstall -k --user 0	com.google.android.apps.books	#	#N/A
 adb shell pm uninstall -k --user 0	com.google.android.apps.magazines	#	#N/A
 adb shell pm uninstall -k --user 0	com.google.android.apps.maps	#	Maps
 adb shell pm uninstall -k --user 0	com.google.android.apps.plus	#	#N/A
-adb shell pm uninstall -k --user 0	com.google.android.apps.tachyon	#	#N/A
-adb shell pm uninstall -k --user 0	com.google.android.apps.wellbeing	#	#N/A
+adb shell pm uninstall -k --user 0	com.google.android.apps.tachyon	#	Google Duo
+adb shell pm uninstall -k --user 0	com.google.android.apps.wellbeing	#	Digital Wellbeing
 adb shell pm uninstall -k --user 0	com.google.android.dialer	#	#N/A
 adb shell pm uninstall -k --user 0	com.google.android.feedback	#	Market Feedback Agent
 adb shell pm uninstall -k --user 0	com.google.android.gm	#	Gmail
 adb shell pm uninstall -k --user 0	com.google.android.gms.location.history	#	Google Location History
 adb shell pm uninstall -k --user 0	com.google.android.googlequicksearchbox	#	Google
-adb shell pm uninstall -k --user 0	com.google.android.inputmethod.latin	#	#N/A
-adb shell pm uninstall -k --user 0	com.google.android.marvin.talkback	#	#N/A
+adb shell pm uninstall -k --user 0	com.google.android.inputmethod.latin	#	Gboard
+adb shell pm uninstall -k --user 0	com.google.android.marvin.talkback	#	Talkback
 adb shell pm uninstall -k --user 0	com.google.android.music	#	#N/A
 adb shell pm uninstall -k --user 0	com.google.android.printservice.recommendation	#	Print Service Recommendation Service
 adb shell pm uninstall -k --user 0	com.google.android.talk	#	#N/A
@@ -80,7 +79,7 @@ adb shell pm uninstall -k --user 0	com.innogames.foeandroid	#	#N/A
 adb shell pm uninstall -k --user 0	com.linkedin.android	#	LinkedIn
 adb shell pm uninstall -k --user 0	com.microsoft.appmanager	#	Your Phone Companion
 adb shell pm uninstall -k --user 0	com.microsoft.office.excel	#	Excel
-adb shell pm uninstall -k --user 0	com.microsoft.office.onenote	#	#N/A
+adb shell pm uninstall -k --user 0	com.microsoft.office.onenote	#	OneNote
 adb shell pm uninstall -k --user 0	com.microsoft.office.powerpoint	#	PowerPoint
 adb shell pm uninstall -k --user 0	com.microsoft.office.word	#	Word
 adb shell pm uninstall -k --user 0	com.microsoft.skydrive	#	OneDrive
@@ -148,7 +147,7 @@ adb shell pm uninstall -k --user 0	com.samsung.android.bixby.es.globalaction	#	#
 adb shell pm uninstall -k --user 0	com.samsung.android.bixby.plmsync	#	#N/A
 adb shell pm uninstall -k --user 0	com.samsung.android.bixby.service	#	Bixby Service
 adb shell pm uninstall -k --user 0	com.samsung.android.bixby.voiceinput	#	#N/A
-adb shell pm uninstall -k --user 0	com.samsung.android.bixby.wakeup	#	\"Bixby\" voice wake-up
+adb shell pm uninstall -k --user 0	com.samsung.android.bixby.wakeup	#	"Bixby" voice wake-up
 adb shell pm uninstall -k --user 0	com.samsung.android.bixbyvision.framework	#	BixbyVision Framework
 adb shell pm uninstall -k --user 0	com.samsung.android.da.daagent	#	Dual Messenger
 adb shell pm uninstall -k --user 0	com.samsung.android.dlp.service	#	#N/A
@@ -190,7 +189,7 @@ adb shell pm uninstall -k --user 0	com.samsung.android.spayfw	#	Samsung PaymentF
 adb shell pm uninstall -k --user 0	com.samsung.android.spdfnote	#	#N/A
 adb shell pm uninstall -k --user 0	com.samsung.android.stickercenter	#	StickerCenter
 adb shell pm uninstall -k --user 0	com.samsung.android.stickerplugin	#	#N/A
-adb shell pm uninstall -k --user 0	com.samsung.android.ststub	#	#N/A
+adb shell pm uninstall -k --user 0	com.samsung.android.ststub	#	SmartThings
 adb shell pm uninstall -k --user 0	com.samsung.android.svoice	#	#N/A
 adb shell pm uninstall -k --user 0	com.samsung.android.svoiceime	#	Samsung voice input
 adb shell pm uninstall -k --user 0	com.samsung.android.themecenter	#	Galaxy Themes Service
@@ -348,35 +347,34 @@ adb shell pm uninstall -k --user 0	comtv.peel.samsung.app	#	#N/A
 adb shell pm uninstall -k --user 0	flipboard.boxer.app	#	Briefing
 adb shell pm uninstall -k --user 0	jp.gocro.smartnews.android	#	#N/A
 adb shell pm uninstall -k --user 0	net.aetherpal.device	#	#N/A
-adb shell pm uninstall -k --user 0 com.coloros.phonemanager
-adb shell pm uninstall -k --user 0 com.coloros.oppomultiapp
-adb shell pm uninstall -k --user 0 com.coloros.gamespace
-adb shell pm uninstall -k --user 0 com.heytap.music
-adb shell pm uninstall -k --user 0 com.heytap.themestore
-adb shell pm uninstall -k --user 0 com.heytap.pictorial
-adb shell pm uninstall -k --user 0 com.heytap.habit.analysis
-adb shell pm uninstall -k --user 0 com.coloros.backuprestore
-adb shell pm uninstall -k --user 0 com.realme.securitycheck
-adb shell pm uninstall -k --user 0 com.coloros.systemclone
-adb shell pm uninstall -k --user 0 com.realmepay.payments
-adb shell pm uninstall -k --user 0 com.opos.cs
-adb shell pm uninstall -k --user 0 com.realme.link
-adb shell pm uninstall -k --user 0 com.coloros.oshare
-adb shell pm uninstall -k --user 0 com.oppo.quicksearchbox
-adb shell pm uninstall -k --user 0 com.coloros.gamespaceui
-adb shell pm uninstall -k --user 0 com.coloros.assistantscreen
-adb shell pm uninstall -k --user 0 com.coloros.videoeditor
-adb shell pm uninstall -k --user 0 com.coloros.video
-adb shell pm uninstall -k --user 0 com.heytap.browser
-adb shell pm uninstall -k --user 0 com.os.docvault
-adb shell pm uninstall -k --user 0 com.finshell.fin
-adb shell pm uninstall -k --user 0 com.coloros.onekeylockscreen
-adb shell pm uninstall -k --user 0 com.realmecomm.app
-adb shell pm uninstall -k --user 0 com.heytap.quickgame
-adb shell pm uninstall -k --user 0 com.heytap.cloud
-adb shell pm uninstall -k --user 0 com.heytap.usercenter
-adb shell pm uninstall -k --user 0 com.realmestore.app
-adb shell pm uninstall -k --user 0 com.google.android.videos
-adb shell pm uninstall -k --user 0 com.redteamobile.roaming
-adb shell pm disable-user com.nearme.statistics.rom
-
+adb shell pm uninstall -k --user 0	com.coloros.phonemanager	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.oppomultiapp	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.gamespace	#	Game Space
+adb shell pm uninstall -k --user 0	com.heytap.music	#	#N/A
+adb shell pm uninstall -k --user 0	com.heytap.themestore	#	#N/A
+adb shell pm uninstall -k --user 0	com.heytap.pictorial	#	#N/A
+adb shell pm uninstall -k --user 0	com.heytap.habit.analysis	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.backuprestore	#	#N/A
+adb shell pm uninstall -k --user 0	com.realme.securitycheck	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.systemclone	#	#N/A
+adb shell pm uninstall -k --user 0	com.realmepay.payments	#	#N/A
+adb shell pm uninstall -k --user 0	com.opos.cs	#	#N/A
+adb shell pm uninstall -k --user 0	com.realme.link	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.oshare	#	Oppo Share
+adb shell pm uninstall -k --user 0	com.oppo.quicksearchbox	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.gamespaceui	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.assistantscreen	#	Smart Assistant
+adb shell pm uninstall -k --user 0	com.coloros.videoeditor	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.video	#	#N/A
+adb shell pm uninstall -k --user 0	com.heytap.browser	#	Stock Browser
+adb shell pm uninstall -k --user 0	com.os.docvault	#	#N/A
+adb shell pm uninstall -k --user 0	com.finshell.fin	#	#N/A
+adb shell pm uninstall -k --user 0	com.coloros.onekeylockscreen	#	#N/A
+adb shell pm uninstall -k --user 0	com.realmecomm.app	#	#N/A
+adb shell pm uninstall -k --user 0	com.heytap.quickgame	#	#N/A
+adb shell pm uninstall -k --user 0	com.heytap.cloud	#	HeyTap Cloud
+adb shell pm uninstall -k --user 0	com.heytap.usercenter	#	#N/A
+adb shell pm uninstall -k --user 0	com.realmestore.app	#	#N/A
+adb shell pm uninstall -k --user 0	com.google.android.videos	#	#N/A
+adb shell pm uninstall -k --user 0	com.redteamobile.roaming	#	ORoaming
+adb shell pm uninstall -k --user 0	com.nearme.statistics.rom	#	#N/A

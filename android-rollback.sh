@@ -1,4 +1,3 @@
-#!/bin/bash
 adb shell cmd package install-existing	co.hunge.app	#	#N/A
 adb shell cmd package install-existing	com.amazon.fv	#	#N/A
 adb shell cmd package install-existing	com.amazon.kindle	#	#N/A
@@ -17,7 +16,7 @@ adb shell cmd package install-existing	com.android.egg	#	Android Q Easter Egg
 adb shell cmd package install-existing	com.android.email	#	#N/A
 adb shell cmd package install-existing	com.android.emergency	#	Emergency information
 adb shell cmd package install-existing	com.android.hotwordenrollment.okgoogle	#	OK Google enrollment
-adb shell cmd package install-existing	com.android.printspooler	#	Print Spooler
+adb shell cmd package install-existing	com.android.printspooler	#	Mobile Printing service
 adb shell cmd package install-existing	com.android.providers.partnerbookmarks	#	#N/A
 adb shell cmd package install-existing	com.android.thememanager	#	#N/A
 adb shell cmd package install-existing	com.android.thememanager.module	#	#N/A
@@ -53,15 +52,15 @@ adb shell cmd package install-existing	com.google.android.apps.books	#	#N/A
 adb shell cmd package install-existing	com.google.android.apps.magazines	#	#N/A
 adb shell cmd package install-existing	com.google.android.apps.maps	#	Maps
 adb shell cmd package install-existing	com.google.android.apps.plus	#	#N/A
-adb shell cmd package install-existing	com.google.android.apps.tachyon	#	#N/A
-adb shell cmd package install-existing	com.google.android.apps.wellbeing	#	#N/A
+adb shell cmd package install-existing	com.google.android.apps.tachyon	#	Google Duo
+adb shell cmd package install-existing	com.google.android.apps.wellbeing	#	Digital Wellbeing
 adb shell cmd package install-existing	com.google.android.dialer	#	#N/A
 adb shell cmd package install-existing	com.google.android.feedback	#	Market Feedback Agent
 adb shell cmd package install-existing	com.google.android.gm	#	Gmail
 adb shell cmd package install-existing	com.google.android.gms.location.history	#	Google Location History
 adb shell cmd package install-existing	com.google.android.googlequicksearchbox	#	Google
-adb shell cmd package install-existing	com.google.android.inputmethod.latin	#	#N/A
-adb shell cmd package install-existing	com.google.android.marvin.talkback	#	#N/A
+adb shell cmd package install-existing	com.google.android.inputmethod.latin	#	Gboard
+adb shell cmd package install-existing	com.google.android.marvin.talkback	#	Talkback
 adb shell cmd package install-existing	com.google.android.music	#	#N/A
 adb shell cmd package install-existing	com.google.android.printservice.recommendation	#	Print Service Recommendation Service
 adb shell cmd package install-existing	com.google.android.talk	#	#N/A
@@ -149,7 +148,7 @@ adb shell cmd package install-existing	com.samsung.android.bixby.es.globalaction
 adb shell cmd package install-existing	com.samsung.android.bixby.plmsync	#	#N/A
 adb shell cmd package install-existing	com.samsung.android.bixby.service	#	Bixby Service
 adb shell cmd package install-existing	com.samsung.android.bixby.voiceinput	#	#N/A
-adb shell cmd package install-existing	com.samsung.android.bixby.wakeup	#	\"Bixby\" voice wake-up
+adb shell cmd package install-existing	com.samsung.android.bixby.wakeup	#	"Bixby" voice wake-up
 adb shell cmd package install-existing	com.samsung.android.bixbyvision.framework	#	BixbyVision Framework
 adb shell cmd package install-existing	com.samsung.android.da.daagent	#	Dual Messenger
 adb shell cmd package install-existing	com.samsung.android.dlp.service	#	#N/A
@@ -349,35 +348,34 @@ adb shell cmd package install-existing	comtv.peel.samsung.app	#	#N/A
 adb shell cmd package install-existing	flipboard.boxer.app	#	Briefing
 adb shell cmd package install-existing	jp.gocro.smartnews.android	#	#N/A
 adb shell cmd package install-existing	net.aetherpal.device	#	#N/A
-adb shell cmd package install-existing com.coloros.phonemanager
-adb shell cmd package install-existing com.coloros.oppomultiapp
-adb shell cmd package install-existing com.coloros.gamespace
-adb shell cmd package install-existing com.heytap.music
-adb shell cmd package install-existing com.heytap.themestore
-adb shell cmd package install-existing com.heytap.pictorial
-adb shell cmd package install-existing com.heytap.habit.analysis
-adb shell cmd package install-existing com.coloros.backuprestore
-adb shell cmd package install-existing com.realme.securitycheck
-adb shell cmd package install-existing com.coloros.systemclone
-adb shell cmd package install-existing com.realmepay.payments
-adb shell cmd package install-existing com.opos.cs
-adb shell cmd package install-existing com.realme.link
-adb shell cmd package install-existing com.coloros.oshare
-adb shell cmd package install-existing com.oppo.quicksearchbox
-adb shell cmd package install-existing com.coloros.gamespaceui
-adb shell cmd package install-existing com.coloros.assistantscreen
-adb shell cmd package install-existing com.coloros.videoeditor
-adb shell cmd package install-existing com.coloros.video
-adb shell cmd package install-existing com.heytap.browser
-adb shell cmd package install-existing com.os.docvault
-adb shell cmd package install-existing com.finshell.fin
-adb shell cmd package install-existing com.coloros.onekeylockscreen
-adb shell cmd package install-existing com.realmecomm.app
-adb shell cmd package install-existing com.heytap.quickgame
-adb shell cmd package install-existing com.heytap.cloud
-adb shell cmd package install-existing com.heytap.usercenter
-adb shell cmd package install-existing com.realmestore.app
-adb shell cmd package install-existing com.google.android.videos
-adb shell cmd package install-existing com.redteamobile.roaming
-adb shell cmd enable com.nearme.statistics.rom
-
+adb shell cmd package install-existing	com.coloros.phonemanager	#	#N/A
+adb shell cmd package install-existing	com.coloros.oppomultiapp	#	#N/A
+adb shell cmd package install-existing	com.coloros.gamespace	#	Game Space
+adb shell cmd package install-existing	com.heytap.music	#	#N/A
+adb shell cmd package install-existing	com.heytap.themestore	#	#N/A
+adb shell cmd package install-existing	com.heytap.pictorial	#	#N/A
+adb shell cmd package install-existing	com.heytap.habit.analysis	#	#N/A
+adb shell cmd package install-existing	com.coloros.backuprestore	#	#N/A
+adb shell cmd package install-existing	com.realme.securitycheck	#	#N/A
+adb shell cmd package install-existing	com.coloros.systemclone	#	#N/A
+adb shell cmd package install-existing	com.realmepay.payments	#	#N/A
+adb shell cmd package install-existing	com.opos.cs	#	#N/A
+adb shell cmd package install-existing	com.realme.link	#	#N/A
+adb shell cmd package install-existing	com.coloros.oshare	#	Oppo Share
+adb shell cmd package install-existing	com.oppo.quicksearchbox	#	#N/A
+adb shell cmd package install-existing	com.coloros.gamespaceui	#	#N/A
+adb shell cmd package install-existing	com.coloros.assistantscreen	#	Smart Assistant
+adb shell cmd package install-existing	com.coloros.videoeditor	#	#N/A
+adb shell cmd package install-existing	com.coloros.video	#	#N/A
+adb shell cmd package install-existing	com.heytap.browser	#	Stock Browser
+adb shell cmd package install-existing	com.os.docvault	#	#N/A
+adb shell cmd package install-existing	com.finshell.fin	#	#N/A
+adb shell cmd package install-existing	com.coloros.onekeylockscreen	#	#N/A
+adb shell cmd package install-existing	com.realmecomm.app	#	#N/A
+adb shell cmd package install-existing	com.heytap.quickgame	#	#N/A
+adb shell cmd package install-existing	com.heytap.cloud	#	HeyTap Cloud
+adb shell cmd package install-existing	com.heytap.usercenter	#	#N/A
+adb shell cmd package install-existing	com.realmestore.app	#	#N/A
+adb shell cmd package install-existing	com.google.android.videos	#	#N/A
+adb shell cmd package install-existing	com.redteamobile.roaming	#	ORoaming
+adb shell cmd package install-existing	com.nearme.statistics.rom	#	#N/A
