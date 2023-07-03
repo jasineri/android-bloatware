@@ -165,7 +165,6 @@ adb shell pm uninstall -k --user 0	com.samsung.android.hmt.vrsvc	#	Gear VR Servi
 adb shell pm uninstall -k --user 0	com.samsung.android.keyguardwallpaperupdator	#	Keyguard Wallpaper Updator
 adb shell pm uninstall -k --user 0	com.samsung.android.kidsinstaller	#	Kids Home Installer
 adb shell pm uninstall -k --user 0	com.samsung.android.knox.analytics.uploader	#	Knox Analytics Uploader
-adb shell pm uninstall -k --user 0	com.samsung.android.lool	#	Device care
 adb shell pm uninstall -k --user 0	com.samsung.android.mateagent	#	Samsung Galaxy Friends
 adb shell pm uninstall -k --user 0	com.samsung.android.mdm	#	MDMApp
 adb shell pm uninstall -k --user 0	com.samsung.android.mdx	#	Link to Windows Service

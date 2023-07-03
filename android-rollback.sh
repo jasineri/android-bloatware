@@ -166,7 +166,6 @@ adb shell cmd package install-existing	com.samsung.android.hmt.vrsvc	#	Gear VR S
 adb shell cmd package install-existing	com.samsung.android.keyguardwallpaperupdator	#	Keyguard Wallpaper Updator
 adb shell cmd package install-existing	com.samsung.android.kidsinstaller	#	Kids Home Installer
 adb shell cmd package install-existing	com.samsung.android.knox.analytics.uploader	#	Knox Analytics Uploader
-adb shell cmd package install-existing	com.samsung.android.lool	#	Device care
 adb shell cmd package install-existing	com.samsung.android.mateagent	#	Samsung Galaxy Friends
 adb shell cmd package install-existing	com.samsung.android.mdm	#	MDMApp
 adb shell cmd package install-existing	com.samsung.android.mdx	#	Link to Windows Service
