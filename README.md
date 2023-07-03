@@ -10,7 +10,7 @@ If however something goes wrong, then the rollback script `android-rollback.sh` 
 
 The files, though are shell scripts, renaming it to batch files could make in run with Windows too
 
-# prerequisite
+# Prerequisite
 
 1. Platform tools added to your PATH (more on that could be Googled)
 
@@ -18,9 +18,9 @@ Platform Tools' binaries could be retrieved from [here](https://developer.androi
 
 # Installation and usage
 
-git clone https://github.com/jasineri/android-bloatware
-cd android-bloatware
-bash android-cleanup.sh
+    git clone https://github.com/jasineri/android-bloatware
+    cd android-bloatware
+    bash android-cleanup.sh
 
 # Footnotes
 
